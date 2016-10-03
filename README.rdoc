@@ -4,7 +4,8 @@ This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
-
+based on : http://collectiveidea.com/blog/archives/2016/03/09/modern-javascript-and-rails/
+secondarily : http://collectiveidea.com/blog/archives/2016/04/13/rails-react-npm-without-the-pain/
 * Ruby version
 
 * System dependencies
