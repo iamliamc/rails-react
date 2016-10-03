@@ -19,9 +19,9 @@ module ModernJSonrails
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-    
+
     # Configure Browserify to use babelify to compile ES6
-    config.browserify_rails.commandline_options = "-t [ babelify --presets [ es2015 ] ]"
+    config.browserify_rails.commandline_options = "-t [ babelify --presets [ es2015 react ] ]"
 
     unless Rails.env.production?
         # Work around sprockets+teaspoon mismatch:
